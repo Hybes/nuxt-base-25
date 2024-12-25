@@ -1,6 +1,6 @@
 import withNuxt from './.nuxt/eslint.config.mjs'
 export default withNuxt({
-	ignores: ['lib/**/*', 'components/ui/**/*', '.nuxt/**/*'],
+	ignores: ['.nuxt/**/*'],
 
 	rules: {
 		'no-undef': 'off',
