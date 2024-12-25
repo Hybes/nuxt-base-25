@@ -1,0 +1,34 @@
+{
+	"name": "nuxt-base-25",
+	"private": true,
+	"type": "module",
+	"scripts": {
+		"build": "nuxt build",
+		"dev": "nuxt dev",
+		"generate": "nuxt generate",
+		"preview": "nuxt preview",
+		"postinstall": "nuxt prepare",
+		"lint": "eslint .",
+		"lint:fix": "eslint --fix .",
+		"format": "prettier --write ."
+	},
+	"dependencies": {
+		"@nuxt/ui": "^3.0.0-alpha.10",
+		"nuxt": "^3.14.1592",
+		"tailwindcss-intersect": "^2.0.1",
+		"tailwindcss-motion": "^1.0.0",
+		"vue": "latest",
+		"vue-router": "latest"
+	},
+	"devDependencies": {
+		"@nuxt/eslint": "^0.7.4",
+		"@nuxt/eslint-config": "^0.7.4",
+		"@nuxtjs/eslint-module": "^4.1.0",
+		"@tailwindcss/typography": "^0.5.15",
+		"eslint": "^9.17.0",
+		"eslint-config-prettier": "^9.1.0",
+		"eslint-plugin-prettier": "^5.2.1",
+		"prettier": "^3.4.2",
+		"prettier-plugin-tailwindcss": "^0.6.9"
+	}
+}
