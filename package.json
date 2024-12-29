@@ -17,10 +17,9 @@
 		"@nuxt/ui": "^3.0.0-alpha.10",
 		"@nuxtjs/seo": "^2.0.2",
 		"nuxt": "^3.14.1592",
-		"tailwindcss-intersect": "^2.0.1",
-		"tailwindcss-motion": "^1.0.0",
 		"vue": "latest",
-		"vue-router": "latest"
+		"vue-router": "latest",
+		"zod": "^3.24.1"
 	},
 	"devDependencies": {
 		"@nuxt/eslint": "^0.7.4",

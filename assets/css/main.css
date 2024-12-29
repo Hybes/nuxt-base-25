@@ -1,6 +1,8 @@
 @import 'tailwindcss';
 @import '@nuxt/ui';
 
+@plugin '@tailwindcss/typography';
+
 @theme {
 	--font-sans: 'Public Sans', sans-serif;
 
@@ -17,4 +19,15 @@
 	--color-green-800: #016538;
 	--color-green-900: #0a5331;
 	--color-green-950: #052e16;
+
+	--animate-slideshow: slideshow 20s linear infinite;
+
+	@keyframes slideshow {
+		from {
+			transform: translateX(0%);
+		}
+		to {
+			transform: translateX(-100%);
+		}
+	}
 }
